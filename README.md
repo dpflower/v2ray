@@ -11,5 +11,6 @@ https://intmainreturn0.com/v2ray-config-gen/#
 
 
 install -y lrzsz git zip unzip curl wget qrencode libcap
+
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
