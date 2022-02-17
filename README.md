@@ -13,4 +13,10 @@ https://intmainreturn0.com/v2ray-config-gen/#
 yum install -y lrzsz git zip unzip curl wget qrencode libcap
 
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+timedatectl set-timezone Asia/Shanghai
+timedatectl set-ntp true
+timedatectl status | sed -n '1p;4p'
+
+
+
 
