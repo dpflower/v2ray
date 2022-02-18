@@ -18,5 +18,6 @@ timedatectl set-ntp true
 timedatectl status | sed -n '1p;4p'
 
 
-
-
+/etc/systemd/system/v2ray.service
+#User=nobody
+Environment="V2RAY_VMESS_AEAD_FORCED=false"
